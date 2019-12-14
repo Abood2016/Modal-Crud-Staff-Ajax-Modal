@@ -253,12 +253,10 @@
      $('#deleteForm').attr('action', '/employees/' +data[0]);
      $('#deleteModal').modal('show');   
     });
-    //end edit with class edit
+    //end delete with class edit
 
 });
 </script>
-
-
 
 </body>
 </html>

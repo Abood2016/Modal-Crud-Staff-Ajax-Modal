@@ -17,3 +17,7 @@ Route::get('/', function () {
 });
 
 Route::resource('/employees', 'EmployeeController');
+Route::resource('/students', 'StudentController');
+
+Route::post('/students', 'StudentController@store')->name('student.store');
+Route::put('/studentUpdate/{id}', 'StudentController@update')->name('student.update');
